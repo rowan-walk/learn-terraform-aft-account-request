@@ -27,7 +27,7 @@ module "sandbox" {
 }
 
 
-module "sandbox" {
+module "sandbox2" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
